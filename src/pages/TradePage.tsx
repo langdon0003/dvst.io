@@ -157,7 +157,7 @@ function TradePageInner() {
       <Wrapper>
         <Row
           align="middle"
-          style={{ paddingLeft: 5, paddingRight: 5, height: 'auto' }}
+          style={{ paddingLeft: 5, paddingRight: 5, height: '700px' }}
           gutter={16}
         >
           <TVChartContainer />
