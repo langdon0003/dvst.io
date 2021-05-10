@@ -1,9 +1,13 @@
 .TVChartContainer {
-  height: 100%;
+  height: 700px;
   width: 100%;
 }
 
 .tradingview-chart {
+  height: 100%;
+  width: 100%;
+}
+* {
   height: 100%;
   width: 100%;
 }
