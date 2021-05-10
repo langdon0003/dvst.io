@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Orderbook from '../components/Orderbook';
 import UserInfoTable from '../components/UserInfoTable';
 import StandaloneBalancesDisplay from '../components/StandaloneBalancesDisplay';
-import {TVChartContainer} from '../components/TradingView/index';
+import { TVChartContainer } from '../components/TradingView/index';
 import {
   getMarketInfos,
   getTradePageUrl,
@@ -52,13 +52,16 @@ export default function TradePage() {
   }
 
   return (
-    <MarketProvider
-      marketAddress={marketAddress}
-      setMarketAddress={setMarketAddress}
-    >
+    <div>
       <TVChartContainer />
-      <TradePageInner />
-    </MarketProvider>
+      <MarketProvider
+        marketAddress={marketAddress}
+        setMarketAddress={setMarketAddress}
+      >
+        <TradePageInner />
+      </MarketProvider>
+    </div>
+
   );
 }
 
@@ -286,15 +289,15 @@ function MarketSelector({
               ? -1
               : extractQuote(a.name) !== 'USDT' &&
                 extractQuote(b.name) === 'USDT'
-              ? 1
-              : 0,
+                ? 1
+                : 0,
           )
           .sort((a, b) =>
             extractBase(a.name) < extractBase(b.name)
               ? -1
               : extractBase(a.name) > extractBase(b.name)
-              ? 1
-              : 0,
+                ? 1
+                : 0,
           )
           .map(({ address, name, deprecated }, i) => (
             <Option
