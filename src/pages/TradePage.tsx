@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Orderbook from '../components/Orderbook';
 import UserInfoTable from '../components/UserInfoTable';
 import StandaloneBalancesDisplay from '../components/StandaloneBalancesDisplay';
+import {TVChartContainer} from '../components/TradingView/index';
 import {
   getMarketInfos,
   getTradePageUrl,
@@ -55,6 +56,7 @@ export default function TradePage() {
       marketAddress={marketAddress}
       setMarketAddress={setMarketAddress}
     >
+      <TVChartContainer />
       <TradePageInner />
     </MarketProvider>
   );
