@@ -8,11 +8,15 @@ import { ConnectionContextValues, EndpointInfo } from './types';
 export const ENDPOINTS: EndpointInfo[] = [
   {
     name: 'mainnet-beta',
-    endpoint: 'https://solana-api.projectserum.com',
+    endpoint: 'https://api.mainnet-beta.solana.com/',
     custom: false,
   },
-  { name: 'localnet', endpoint: 'http://127.0.0.1:8899', custom: false },
-];
+  {
+    name: 'devnet',
+    endpoint: 'https://devnet.solana.com',
+    custom: false,
+  },
+]
 
 const accountListenerCount = new Map();
 
