@@ -25,7 +25,7 @@ export default function WalletConnect() {
   return (
     <React.Fragment>
       {!connected ? (
-        <ActionButton size="large" onClick={wallet.connect} style={{ color: '#f2c94c' }}>
+        <ActionButton size="large" onClick={wallet.connect} style={{ color: '#06F0FF' }}>
           {!connected ? 'Connect wallet' : 'Disconnect'}
         </ActionButton>
       ) : (

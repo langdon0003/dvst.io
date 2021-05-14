@@ -13,7 +13,7 @@ const AppTitle = () => {
           ${`${markPrice.toFixed(2)}`} {marketName} &middot; Mango
         </title>
       ) : (
-        <title>Mango Markets</title>
+        <title>DVST</title>
       )}
     </Helmet>
   );

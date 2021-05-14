@@ -1,7 +1,7 @@
 import { Col, Menu, Row, Select, Typography } from 'antd';
 import React, { useCallback, useEffect, useState } from 'react';
 import { useHistory, useLocation } from 'react-router-dom';
-import logo from '../assets/icons/logo.svg';
+import logo from '../assets/icons/logo.png';
 import styled from 'styled-components';
 import { useWallet, WALLET_PROVIDERS } from '../utils/wallet';
 import { ENDPOINTS, useConnectionConfig } from '../utils/connection';
@@ -86,7 +86,7 @@ export default function TopBar() {
             className="ant-typography"
             style={{ fontFamily: 'Lato', fontWeight: 600, marginBottom: '2px' }}
           >
-            Mango Markets
+            DVST
           </h4>
         </LogoWrapper>
         <Menu

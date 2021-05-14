@@ -15,10 +15,10 @@ export default function Index() {
   return (
     <FloatingElement style={{ paddingTop: 20 }}>
       <Typography>
-        <Paragraph style={{ color: 'rgba(255,255,255,0.5)' }}>
+        <Paragraph style={{ color: '#fffff' }}>
           Make sure to go to Balances and click Settle to send out your funds.
         </Paragraph>
-        <Paragraph style={{ color: 'rgba(255,255,255,0.5)' }}>
+        <Paragraph style={{ color: '#fffff' }}>
           To fund your wallet, <a href="https://www.sollet.io">sollet.io</a>. You can get SOL from
           FTX, Binance, BitMax, and others. You can get other tokens from FTX.{' '}
         </Paragraph>

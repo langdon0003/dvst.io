@@ -84,7 +84,7 @@ export default function MainPage() {
 
   if (IDS[endpointInfo!.name] === undefined) {
     return (
-      <>Endpoint {endpointInfo!.name} does not yet have a valid mango markets contract deployed</>
+      <>Endpoint {endpointInfo!.name} does not yet have a valid DVST contract deployed</>
     );
   } else {
     return <MarginAccountList />;

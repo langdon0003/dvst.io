@@ -129,7 +129,7 @@ export default function BalancesDisplay({ style }: { style?: any }) {
             placement="topLeft"
             trigger="hover"
           >
-            <InfoCircleOutlined style={{ color: '#F2C94C' }} />
+            <InfoCircleOutlined style={{ color: '#06F0FF' }} />
           </Popover>
         </Divider>
         {marginAccounts.length > 1 && MAccountSelector}

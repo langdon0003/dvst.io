@@ -43,8 +43,8 @@ const StyledThumb = styled.div`
   line-height: 15px;
   width: 15px;
   text-align: center;
-  background-color: #f2c94c;
-  color: #f2c94c;
+  background-color: #06F0FF;
+  color: #06F0FF;
   border-radius: 50%;
   cursor: grab;
   outline: none;
@@ -56,7 +56,7 @@ const StyledTrack = styled.div`
   top: 0;
   bottom: 0;
   background: ${(props) =>
-    props.index === 2 ? '#f00' : props.index === 1 ? '#f2c94c' : '#f2c94c'};
+    props.index === 2 ? '#f00' : props.index === 1 ? '#06F0FF' : '#06F0FF'};
   border-radius: 999px;
   height: 5px;
   margin: auto;

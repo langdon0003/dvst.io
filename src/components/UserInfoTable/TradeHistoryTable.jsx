@@ -65,7 +65,7 @@ export default function TradeHistoryTable() {
           {tradeHistory.length > 0 ? (
             <div style={{ position: 'absolute', bottom: 0, left: 0 }}>
               <Typography>
-                <Typography.Paragraph style={{ color: 'rgba(255,255,255,0.5)' }}>
+                <Typography.Paragraph style={{ color: '#06F0FF' }}>
                   <em>Reflects trades placed after March 15th 04:00am UTC</em>
                 </Typography.Paragraph>
               </Typography>

@@ -10,11 +10,6 @@ const { useBreakpoint } = Grid;
 // TODO: Put all links in tokenMap
 const footerElements = [
   {
-    description: 'Discord',
-    link: helpUrls.discord,
-  },
-  { description: 'GitHub', link: helpUrls.github, icon: <GithubOutlined /> },
-  {
     description: 'Solana',
     link: helpUrls.solana,
   },

@@ -31,7 +31,7 @@ export const RightCol = styled(Col)`
 `;
 
 export const ActionButton = styled(Button)`
-  color: #f2c94c;
+  color: #06f0ff;
   background-color: #262337;
   border-width: 0px;
 `;
