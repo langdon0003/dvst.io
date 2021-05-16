@@ -20,7 +20,7 @@ export default class ChartApi {
   static async getRecentTrades(
     marketAddress: string
   ): Promise<ChartTradeType[] | null> {
-    return ChartApi.get(`trades/address/${marketAddress}`)
+    return ChartApi.get(`/trades/address/${marketAddress}`)
   }
 }
 
