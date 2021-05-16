@@ -2,10 +2,10 @@ import TopBar from '../components/TopBar'
 import TradePageGrid from '../components/TradePageGrid'
 import MarketSelect from '../components/MarketSelect'
 import AlphaModal from '../components/AlphaModal'
-// import useLocalStorageState from '../hooks/useLocalStorageState'
+import useLocalStorageState from '../hooks/useLocalStorageState'
 
 const Index = () => {
-  // const [alphaAccepted] = useLocalStorageState('mangoAlphaAccepted', false)
+  const [alphaAccepted] = useLocalStorageState('mangoAlphaAccepted', false)
 
   return (
     <div className={`bg-th-bkg-1 text-th-fgd-1 transition-all `}>
@@ -15,8 +15,8 @@ const Index = () => {
         <TradePageGrid />
       </div>
       {/* {!alphaAccepted && (
-        <AlphaModal isOpen={!alphaAccepted} onClose={() => {}} />
-      )} */}
+        <AlphaModal isOpen={!alphaAccepted} onClose={() => {}} /> */}
+      )}
     </div>
   )
 }

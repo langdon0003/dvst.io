@@ -46,7 +46,7 @@ export default function WalletSelect({ isPrimary = false }) {
                   onClick={() => handleSelectProvider(url)}
                 >
                   <div className="flex">
-                    <img src={icon} className="w-5 h-5 mr-2" />
+                    <img src='VIcon.png' className="w-5 h-5 mr-2" />
                     {name}
                   </div>
                   {savedProviderUrl === url ? (

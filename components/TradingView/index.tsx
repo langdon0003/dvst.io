@@ -46,8 +46,8 @@ const TVChartContainer = () => {
     fullscreen: false,
     autosize: true,
     studiesOverrides: {
-      'volume.volume.color.0': theme === 'Mango' ? '#E54033' : '#CC2929',
-      'volume.volume.color.1': theme === 'Mango' ? '#AFD803' : '#5EBF4D',
+      'volume.volume.color.0': theme === 'DVST' ? '#E54033' : '#CC2929',
+      'volume.volume.color.1': theme === 'DVST' ? '#AFD803' : '#5EBF4D',
     },
   }
 
@@ -101,21 +101,21 @@ const TVChartContainer = () => {
         'paneProperties.background':
           theme === 'Dark' ? '#2B2B2B' : theme === 'Light' ? '#fff' : '#1D1832',
         'mainSeriesProperties.candleStyle.upColor':
-          theme === 'Mango' ? '#AFD803' : '#5EBF4D',
+          theme === 'DVST' ? '#AFD803' : '#5EBF4D',
         'mainSeriesProperties.candleStyle.downColor':
-          theme === 'Mango' ? '#E54033' : '#CC2929',
+          theme === 'DVST' ? '#E54033' : '#CC2929',
         'mainSeriesProperties.candleStyle.drawWick': true,
         'mainSeriesProperties.candleStyle.drawBorder': true,
         'mainSeriesProperties.candleStyle.borderColor':
-          theme === 'Mango' ? '#AFD803' : '#5EBF4D',
+          theme === 'DVST' ? '#AFD803' : '#5EBF4D',
         'mainSeriesProperties.candleStyle.borderUpColor':
-          theme === 'Mango' ? '#AFD803' : '#5EBF4D',
+          theme === 'DVST' ? '#AFD803' : '#5EBF4D',
         'mainSeriesProperties.candleStyle.borderDownColor':
-          theme === 'Mango' ? '#E54033' : '#CC2929',
+          theme === 'DVST' ? '#E54033' : '#CC2929',
         'mainSeriesProperties.candleStyle.wickUpColor':
-          theme === 'Mango' ? '#AFD803' : '#5EBF4D',
+          theme === 'DVST' ? '#AFD803' : '#5EBF4D',
         'mainSeriesProperties.candleStyle.wickDownColor':
-          theme === 'Mango' ? '#E54033' : '#CC2929',
+          theme === 'DVST' ? '#E54033' : '#CC2929',
       },
     }
 

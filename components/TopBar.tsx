@@ -64,7 +64,7 @@ const TopBar = () => {
             <div className={`flex-shrink-0 flex items-center`}>
               <img
                 className={`h-8 w-auto`}
-                src="/assets/icons/logo.svg"
+                src="/assets/icons/logo.png"
                 alt="next"
               />
             </div>
@@ -72,7 +72,7 @@ const TopBar = () => {
               <MenuItem href="/">Trade</MenuItem>
               <MenuItem href="/stats">Stats</MenuItem>
               <MenuItem href="/alerts">Alerts</MenuItem>
-              <MenuItem href="">Learn</MenuItem>
+              <MenuItem href="/">Learn</MenuItem>
             </div>
           </div>
           <div className="flex">
@@ -160,7 +160,7 @@ const TopBar = () => {
           <MenuItem href="/">Trade</MenuItem>
           <MenuItem href="/stats">Stats</MenuItem>
           <MenuItem href="/alerts">Alerts</MenuItem>
-          <MenuItem href="">Learn</MenuItem>
+          <MenuItem href="/">Learn</MenuItem>
 
           {connected && wallet?.publicKey ? (
             <button

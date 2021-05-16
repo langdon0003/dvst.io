@@ -18,9 +18,9 @@ const ASSET_URL =
 
 export const WALLET_PROVIDERS = [
   {
-    name: 'Sollet.io',
-    url: 'https://www.sollet.io',
-    icon: `${ASSET_URL}/sollet.svg`,
+    name: 'DVST Wallet',
+    url: 'https://dvst-wallet.netlify.app',
+    icon: `${ASSET_URL}/metamask.svg`,
   },
   {
     name: 'Sollet Extension',

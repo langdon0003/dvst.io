@@ -1,6 +1,6 @@
 import { ChartTradeType } from '../@types/types'
 
-const baseUrl = 'https://jordan-serum-api.herokuapp.com'
+const baseUrl = 'https://serum-history.herokuapp.com'
 export default class ChartApi {
   static URL = `${baseUrl}/`
 
@@ -20,7 +20,7 @@ export default class ChartApi {
   static async getRecentTrades(
     marketAddress: string
   ): Promise<ChartTradeType[] | null> {
-    return ChartApi.get(`/trades/address/${marketAddress}`)
+    return ChartApi.get(`trades/address/${marketAddress}`)
   }
 }
 

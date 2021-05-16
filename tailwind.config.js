@@ -61,7 +61,7 @@ module.exports = {
           'fgd-4': '#B0B0B0',
         },
         'dark-theme': {
-          orange: '#F2C94C',
+          orange: '#0270FB',
           red: { DEFAULT: '#CC2929', dark: '#AA2222' },
           green: { DEFAULT: '#5EBF4D', dark: '#4BA53B' },
           'bkg-1': '#1C1C1C',

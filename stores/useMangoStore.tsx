@@ -15,15 +15,13 @@ import { getOwnedTokenAccounts } from '../utils/tokens'
 import { isDefined } from '../utils/index'
 import { notify } from '../utils/notifications'
 
-
-// Here I have to include our self osted RPC POOL else we cant continue using the public ones
 export const ENDPOINTS: EndpointInfo[] = [
-  // {
-  //   name: 'mainnet-beta',
-  //   url: 'https://mango.rpcpool.com/',
-  //   websocket: 'https://mango.rpcpool.com/',
-  //   custom: false,
-  // },
+  {
+    name: 'mainnet-beta',
+    url: 'https://vip-api.mainnet-beta.solana.com/',
+    websocket: 'https://vip-api.mainnet-beta.solana.com/',
+    custom: false,
+  },
   {
     name: 'devnet',
     url: 'https://devnet.solana.com',
@@ -35,7 +33,7 @@ export const ENDPOINTS: EndpointInfo[] = [
 type ClusterType = 'mainnet-beta' | 'devnet'
 
 const CLUSTER =
-  (process.env.NEXT_PUBLIC_CLUSTER as ClusterType) || 'devnet'
+  (process.env.NEXT_PUBLIC_CLUSTER as ClusterType) || 'mainnet-beta'
 const ENDPOINT = ENDPOINTS.find((e) => e.name === CLUSTER)
 const DEFAULT_CONNECTION = new Connection(ENDPOINT.url, 'recent')
 const WEBSOCKET_CONNECTION = new Connection(ENDPOINT.websocket, 'recent')

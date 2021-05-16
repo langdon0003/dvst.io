@@ -142,7 +142,7 @@ const StatsChart = ({ title, xAxis, yAxis, data, labelFormat }) => {
             type="linear"
             dot={false}
             dataKey={yAxis}
-            stroke="#f2c94c"
+            stroke="#0270FB"
             strokeWidth={2}
           />
           {mouseData ? (
