@@ -15,8 +15,8 @@ const Index = () => {
         <TradePageGrid />
       </div>
       {/* {!alphaAccepted && (
-        <AlphaModal isOpen={!alphaAccepted} onClose={() => {}} /> */}
-      )}
+        <AlphaModal isOpen={!alphaAccepted} onClose={() => {}} />
+      )} */}
     </div>
   )
 }

@@ -7,7 +7,7 @@ import { MangoIcon } from './icons'
 const THEMES = [
   { name: 'Light', icon: <SunIcon className="h-4 w-4" /> },
   { name: 'Dark', icon: <MoonIcon className="h-4 w-4" /> },
-  { name: 'Mango', icon: <MangoIcon className="stroke-current h-4 w-4" /> },
+  { name: 'DVST', icon: <MangoIcon className="stroke-current h-4 w-4" /> },
 ]
 
 const ThemeSwitch = () => {
@@ -23,7 +23,7 @@ const ThemeSwitch = () => {
     <DropMenu
       button={
         <div className="flex items-center justify-center rounded-full bg-th-bkg-3 w-8 h-8">
-          {THEMES.find((t) => t.name === theme).icon}
+          {/* {THEMES.find((t) => t.name === theme).icon} */}
         </div>
       }
       buttonClassName="flex items-center justify-center hover:text-th-primary rounded-md focus:outline-none"

@@ -42,14 +42,6 @@ const MarketSelect = () => {
             </div>
           ))}
         </div>
-        <div className="mr-10 text-xs">
-          <a
-            href="https://old.mango.markets"
-            className="text-th-fgd-4 default-transition underline hover:text-th-primary hover:no-underline"
-          >
-            Use Previous Version
-          </a>
-        </div>
       </div>
     </div>
   )
